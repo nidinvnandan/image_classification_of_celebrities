@@ -1,6 +1,7 @@
 # image_classification_of_celebrities
 
 CHOSEN MODEL- Convolutional Neural Network(CNN)
+
 "
 model = tf.keras.models.Sequential([
 tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3)),	tf.keras.layers.MaxPooling2D((2, 2)),
